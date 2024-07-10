@@ -1,0 +1,9 @@
+CRITICAL - 2023-04-23 21:49:31 --> Invalid file: "pagina_inicio.html"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagina_inicio.html')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pagina_inicio.html', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('pagina_inicio.html')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

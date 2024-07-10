@@ -1,0 +1,72 @@
+/*RESET  APLICAMOS PARA QUE LS MARGENES ESTEN EN CERO*/ 
+
+
+#supercontenedor {
+    background-color: aqua;
+
+}
+
+#menu {
+    height: 80px;
+    background-color: rgb(174, 160, 187);/*color de fonddo*/
+    font-family: bold;/*tipo de letra*/
+    font-size: 1.5em;
+    display: flex;
+    
+    
+}
+
+
+#menu a:hover{
+    color: aliceblue;
+}
+.navbar-nav{
+    background-color: blueviolet; 
+    width: 100%;
+    
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.collapse {
+
+    z-index: 9000;
+}
+.numero{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(224, 47, 156);
+    color: white;
+    font-size: 39px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+ .compras{
+    padding:1.5%;
+    font-size: 30px;
+    text-align: center;
+    height: 80px;
+    background-color: blueviolet;
+ }
+
+.compra-pasos{
+   
+    background-color: rgb(233, 158, 204);
+    padding: 2%;
+}
+.cont{
+    text-align: center;
+    background-color: rgb(127, 181, 202);
+    height: 300px;
+    
+}
+
+#footer{
+    background-color:rgb(255, 0, 128);
+    text-align: center;
+    padding-block: 3%;/* alto de la caja*/
+    color: white;
+}

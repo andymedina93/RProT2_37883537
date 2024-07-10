@@ -1,0 +1,666 @@
+a:link,a:visited,a:active {
+    text-decoration: none
+}
+
+a.none {
+    text-decoration: none
+}
+
+body {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #fff
+}
+
+#supercontenedor {
+    width: 100%;
+    height: 100%;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2
+}
+
+#contenedor {
+    align-content: center;
+    max-width: 900px;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#logo {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+    text-align: center
+}
+
+.botones {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.main-nav {
+    width: 100%
+}
+
+.botones-principales {
+    width: 100px;
+    height: 100px
+}
+
+.facebook-likes-btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #0e6eec;
+    position: relative
+}
+
+.fb-like {
+    width: 92px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#menutotal {
+    width: 900px;
+    height: 58px;
+    position: fixed;
+    top: 0;
+    z-index: 9000
+}
+
+#menu {
+    background-color: #de074d;
+    z-index: 2
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+#menu #item {
+    display: inline-block
+}
+
+.nav-bar {
+    background-color: #de074d;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 900px;
+    text-decoration: none;
+    z-index: 2000
+}
+
+.menu,.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.menu {
+    background: #de074d;
+    width: 100%;
+    margin-left: -120%;
+    transition: all .5s;
+    text-decoration: none
+}
+
+.menu__link {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-family: AileronSB;
+    text-decoration: none
+}
+
+.menu__link:hover {
+    background: #dfbf97;
+    color: #b30840;
+    text-decoration: none
+}
+
+.submenu .menu__link:hover {
+    background: #dfbf97
+}
+
+.mostrar {
+    margin-left: 0
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;
+    transition: all .3s
+}
+
+.submenu .menu__link {
+    background: #b30840;
+    padding-left: 15px
+}
+
+#nosotros-cont-cero {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    background-image: url(imagenes/conjunto_rojo.jpg);
+    background-repeat: no-repeat
+}
+
+#nosotros-cont {
+    width: 50%;
+    padding-top: 20px
+}
+
+#cita-titulo {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px
+}
+
+#cita-detalles {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d5d1ef
+}
+
+.logos-marcas {
+    width: 32%;
+    padding: 5px;
+    display: inline-block
+}
+
+#fb-ls-cont {
+    padding-top: 10px;
+    height: 30px;
+    position: relative;
+    bottom: 0
+}
+
+.facebook-like-share {
+    padding-top: 10px;
+    width: auto;
+    height: 30px;
+    padding-right: 10px;
+    float: left;
+    position: relative;
+    bottom: 0
+}
+
+#contenedor-slider {
+    top: 10px
+}
+
+.contenedor-slider {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1999
+}
+
+.slider {
+    display: flex;
+    width: 1000%
+}
+
+.slider__section {
+    width: 100%
+}
+
+.slider__img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.btn-prev,.btn-next {
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    cursor: pointer
+}
+
+.btn-prev:hover,.btn-next:hover {
+    opacity: 100%
+}
+
+.btn-prev {
+    left: 10px
+}
+
+.btn-next {
+    right: 10px
+}
+
+#titulo {
+    padding-top: 25px;
+    width: 100%;
+    font-family: AileronBold;
+    font-size: 25px;
+    text-align: center;
+    color: #de074d;
+    text-transform: uppercase
+}
+
+#sucursales {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    gap: 20px
+}
+
+#sucursal {
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
+    color: #fff;
+    font-family: AileronSB;
+    display: flex
+}
+
+#suic {
+    width: 210px;
+    height: auto;
+    padding: 10px;
+    background-color: #de074d;
+    color: #fff;
+    font-family: AileronSB;
+    text-align: center;
+    position: relative
+}
+
+#info-sucur {
+    padding: 10px;
+    border-radius: 0 0 0 0;
+    background-color: #b30840;
+    color: #fff
+}
+
+#whatsapp-cont {
+    padding: 10px;
+    border-radius: 0 0 0 0;
+    background-color: #1cbe3a
+}
+
+#whatsapp-cont:hover {
+    padding: 10px;
+    background-color: #3ee65d
+}
+
+#titulo-novedad {
+    padding-top: 25px;
+    width: 100%;
+    font-family: AileronBold;
+    font-size: 25px;
+    text-align: center;
+    color: #de074d;
+    text-transform: uppercase
+}
+
+#titulo-novedad {
+    padding-top: 25px;
+    width: 100%;
+    font-family: AileronBold;
+    font-size: 25px;
+    text-align: center;
+    color: #de074d;
+    text-transform: uppercase
+}
+
+#novedades {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    gap: 13px
+}
+
+#novedad {
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
+    color: #fff;
+    font-family: AileronSB;
+    display: flex
+}
+
+#nov {
+    width: 210px;
+    height: auto;
+    padding: 10px;
+    background-color: #de074d;
+    color: #fff;
+    font-family: AileronSB;
+    text-align: center;
+    position: relative
+}
+
+#info-nov {
+    padding: 10px;
+    border-radius: 0 0 0 0;
+    background-color: #b30840;
+    color: #fff
+}
+
+.zoom-img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    color: #fff;
+    font-family: AileronSB;
+    display: flex;
+    overflow: hidden
+}
+
+.zoom-img img {
+    width: 900px;
+    height: 530px;
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -o-transition: .8s;
+    -ms-transition: .8s;
+    transition: .8s
+}
+
+.zoom-img img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transform: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -o-transition: .8s;
+    -ms-transition: .8s;
+    transition: .8s
+}
+
+.seccion {
+    margin-top: 15px
+}
+
+#info-1 {
+    display: inline-block;
+    padding: 16px 30px;
+    width: auto;
+    font-family: aileronreg;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    align-content: center
+}
+
+#consulta {
+    width: auto;
+    max-width: 520px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #de074d;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative
+}
+
+#consulta-cont {
+    width: 100%;
+    text-align: center
+}
+
+#footer {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center
+}
+
+#footer-contenido {
+    width: auto;
+    margin-top: 0;
+    color: #de074d;
+    position: relative
+}
+
+#info-2 {
+    max-width: 100%;
+    font-family: aileronreg;
+    font-size: 16px;
+    color: #000;
+    position: relative
+}
+
+#info32 {
+    max-width: 100%;
+    font-family: aileronreg;
+    font-size: 16px;
+    color: #e00909;
+    position: relative
+}
+
+#data-fiscal {
+    position: relative
+}
+
+.bannercateg {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    position: relative;
+    text-align: center
+}
+
+.contenedor-nosotros {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    border: 1px solid #000
+}
+
+.fila-nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1
+}
+
+.columna-nosotros {
+    flex-grow: 1;
+    border: 1px solid #000
+}
+
+@media(min-width: 950px) {
+    .nav-bar {
+        display:none
+    }
+
+    .menu {
+        margin-left: 0;
+        display: flex
+    }
+
+    .container-submenu {
+        position: relative
+    }
+
+    .submenu {
+        position: absolute;
+        top: 54px;
+        width: 200px;
+        overflow: visible;
+        z-index: 2000;
+        opacity: 0;
+        visibility: hidden
+    }
+
+    .container-submenu:hover .submenu {
+        opacity: 1;
+        visibility: visible
+    }
+}
+
+@media(max-width: 950px) {
+    #supercontenedor {
+        align-content:center
+    }
+
+    #super-cont-2 {
+        position: relative
+    }
+
+    #contenedor {
+        max-width: 90%
+    }
+
+    #nav-bar {
+        overflow: hidden
+    }
+
+    #contenedor-slider {
+        top: 0;
+        height: auto;
+        position: relative;
+        z-index: 2000
+    }
+
+    #novedades {
+        top: 0;
+        height: auto;
+        position: relative;
+        z-index: 2000
+    }
+
+    #menu {
+        border-radius: 0;
+        position: absolute;
+        z-index: 9000
+    }
+
+    #sucursal {
+        width: 100%;
+        height: auto
+    }
+
+    #sucursales {
+        width: 100%;
+        height: auto;
+        display: block
+    }
+
+    #suic {
+        width: 100%
+    }
+
+    .logos-marcas {
+        width: 32%
+    }
+
+    #info-sucur {
+        height: max-content
+    }
+
+    #nosotros-cont-cero {
+        width: 100%;
+        display: block;
+        padding-right: 0;
+        background-color: #e6e6e6
+    }
+
+    #nosotros-cont {
+        width: 100%;
+        display: block;
+        padding-right: 0;
+        background-color: #e6e6e6
+    }
+
+    #menutotal {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding-top: 15px;
+        background-color: #de074d
+    }
+
+    #novedad {
+        width: 100%;
+        height: auto
+    }
+
+    #novedades {
+        width: 100%;
+        height: auto;
+        display: block
+    }
+}
+
+@media(max-width: 600px) {
+    .fb-like {
+        width:100%;
+        height: 100%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(0%,0%)
+    }
+
+    .btn-accesos {
+        width: calc(33.33% - 10px);
+        height: calc(33.33% - 10px)
+    }
+
+    .botones-principales {
+        width: 100%;
+        height: 100%
+    }
+
+    .facebook-likes-btn {
+        width: calc(33.33% - 10px);
+        height: auto
+    }
+
+    .container {
+        width: 60px;
+        height: 60px
+    }
+
+    .container img {
+        width: 100%;
+        height: 100%
+    }
+}
+
+img.iconos {
+    width: 110px;
+    height: 100px
+}
+

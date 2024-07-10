@@ -1,0 +1,87 @@
+#supercontenedor {
+    background-color: aqua;
+
+}
+
+#menu {
+    height: 80px;
+    background-color: blueviolet;/*color de fonddo*/
+    font-family: bold;/*tipo de letra*/
+    font-size: 1.5em;
+    display: flex;
+    
+}
+
+#menu a:hover{
+    color: aliceblue;
+}
+
+.container-titulo{
+    background-color: brown;
+    text-align: center;
+      color: aliceblue;
+       
+      font-family: bold;/*tipo de letra*/
+      height: 80px;
+      padding:1.5%;
+}
+.navbar-nav{
+    background-color: blueviolet; 
+    
+}
+.navbar {
+    margin-left: 10%;
+}
+.container-central{
+    margin-left: 10%; /* margen a la izquierda*/
+    margin-right: 10%;/*margen a la dereche*/
+    margin-bottom:2%; /*margen abajo*/
+    margin-top: 5%;/* margenarriba*/
+    text-align: justify; /* lo justifica*/
+    font-family: Arial;/*tipo de letra*/
+    font-size: 1.2em;
+}
+#footer{
+    background-color:blue;
+    text-align: center;
+    padding-block: 3%;/* alto de la caja*/
+    color: white;
+}
+
+#info-2 {
+    max-width: 100%;
+    font-family: aileronreg;
+    font-size: 16px;
+    color: #000;
+    position: relative
+}
+
+#info-3 {
+    max-width: 100%;
+    font-family: aileronreg;
+    font-size: 16px;
+    color: #e00909;
+    position: relative
+}
+
+
+media (max-width: 720px) {
+    
+    #menu a:hover{
+        color: aliceblue;
+    }
+
+    button{
+
+        padding: 60px 120px;
+        
+    }
+    
+    button:hover{
+        background-color: #C22509;
+    } 
+   
+}
+
+
+
